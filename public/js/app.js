@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    const socket = io(':5000');
+    const socket = io('https://cristibro-x-0.onrender.com/');
 
     socket.on('connect', function() {
         socket.emit("users");
